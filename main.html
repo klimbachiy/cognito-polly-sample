@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cognito Polly Sample</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  </head>
+<body>
+<div id="textToSynth">
+    <p id="result">Enter text above then click <b>Synthesize</b></p>
+    <input autofocus size="23" type="text" id="textEntry" placeholder="Enter the text"/>
+    <button class="btn default" onClick="sampleLib.speakText()">Synthesize</button>
+</div>
+<audio id="audioPlayback" controls>
+    <source id="audioSource" type="audio/mp3" src="">
+</audio>
+</body>
+</html>

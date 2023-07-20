@@ -10,7 +10,7 @@ const client = new Polly({
   region: "us-east-1",
   credentials: fromCognitoIdentityPool({
       client: new CognitoIdentityClient({ region: "us-east-1" }),
-      identityPoolId: "us-east-1:71d4430e-b4cb-457c-ae31-6f11c167fad9"
+      identityPoolId: "IDENTITY_POOL_ID" //Replace identity pool id here
   }),
 });
 
